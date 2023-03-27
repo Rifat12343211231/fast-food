@@ -327,6 +327,7 @@ img {
 
 .feedback__container {
     display: flex;
+    align-items: center;
 }
 
 .feedback__column {
@@ -418,7 +419,36 @@ img {
     transform: rotate(65deg);
 }
 
-.review {}
+.review {
+    max-width: 368px;
+    text-align: center;
+    position: relative;
+}
+
+.review::before {
+    content: "";
+    display: block;
+    width: 43px;
+    height: 43px;
+    background: rgba(246, 118, 44, 0.1);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, calc(-100% - 40px));
+}
+
+.review::after {
+    content: "";
+    display: block;
+    width: 37px;
+    height: 31px;
+    background: url(../img/icons/Group.svg) center/contain no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(calc(-50% - 10px), calc(-100% - 37px));
+}
 
 .review__text {}
 
