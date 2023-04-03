@@ -447,7 +447,7 @@ img {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(calc(-50% - 10px), calc(-100% - 37px));
+    transform: translate(calc(-50% - 5px), calc(-100% - 37px));
 }
 
 .review__text {}
@@ -455,3 +455,60 @@ img {
 .review__user-name {}
 
 .review__user-info {}
+
+.download {}
+
+.container__down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download__column {}
+
+.btn {}
+
+.footer {
+    padding: 86px 0px 140px;
+}
+
+.footer__container {
+    display: flex;
+    column-gap: 92px;
+}
+
+.footer__contact {}
+
+.logo {}
+
+.logo__pic {}
+
+.link-block {}
+
+.link-block__icon {}
+
+.email__link {}
+
+.web__link {}
+
+.footer__nav {
+    display: flex;
+    column-gap: 30px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.footer__nav-col {}
+
+.footer__nav-title {}
+
+.footer__list {}
+
+.footer__item {}
+
+.footer__nav-link {}
+
+.social {}
+
+.social__item {}
+
+.social__link {}
